@@ -1,0 +1,128 @@
+body{
+  background: linear-gradient(135deg, #1E2A78, #4B6CB7);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-size: 4.5rem;
+  color: #FFD700; 
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0 0 10px #FFC107;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+img{
+  width: 100px;
+  vertical-align: middle;
+  margin-bottom: 40px ;
+}
+.set{
+  max-width: 900px;
+  margin: 8% auto;
+}
+.drum{
+  width: 140px;
+  height: 140px;
+  border: 5px solid #304FFE;
+  border-radius: 25px;
+  text-shadow: 0 0 5px #FFEB3B;
+  font-size: 4.5rem;
+  font-weight: 900;
+  font-family: 'Pacifico', cursive;
+  color: #FFC107;
+  display: inline-block;
+  margin: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.drum:hover {
+  color: #1A237E;
+  box-shadow: 0 8px 15px #FFD54F;
+}
+.w {
+  background-image: url('images/tom1.png');
+  background-size: cover;
+  filter: brightness(0.9) saturate(1.2);
+}
+
+.a {
+  background-image: url("images/tom2.png");
+  background-size: cover;
+  filter: brightness(0.9) saturate(1.2);
+}
+
+.s {
+  background-image: url("images/tom3.png");
+  background-size: cover;
+  filter: brightness(0.9) saturate(1.2);
+}
+
+.d {
+  background-image: url("images/tom4.png");
+  background-size: cover;
+  filter: brightness(0.9) saturate(1.2);
+}
+
+.j {
+  background-image: url("images/snare.png");
+  background-size: cover;
+  filter: brightness(0.9) saturate(1.2);
+}
+
+.k {
+  background-image: url("images/crash.png");
+  background-size: cover;
+  filter: brightness(0.9) saturate(1.2);
+}
+
+.l {
+  background-image: url("images/kick.png");
+  background-size: cover;
+  filter: brightness(0.9) saturate(1.2);
+}
+
+
+footer {
+  color: #B3C7F9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  margin-top: 170px;
+  letter-spacing: 1px;
+}
+
+
+.pressed {
+  background: #FFC107 !important;
+  color: #1A237E !important;
+  box-shadow: 0 8px 15px #FFD54F !important;
+  opacity: 0.7;
+  transform: scale(0.9);
+  transition: all 0.1s ease-in-out;
+}  
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem ;
+  }
+  .drum{
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+  }
+  .set {
+    margin: 5% auto;
+  }
+  img{
+    width: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
